@@ -27,11 +27,11 @@ public class menu4 extends javax.swing.JFrame {
     }
     private void jalan(){
         int posisi = this.pnlMenu.getX();
-        if(posisi>-1) {
-            Animacion.Animacion.mover_izquierda(0, -220, 2, 2, pnlMenu);
-        } else {
-            Animacion.Animacion.mover_derecha(-220, 0, 2, 2, pnlMenu);
-        }
+//        if(posisi>-1) {
+//            Animacion.Animacion.mover_izquierda(0, -220, 2, 2, pnlMenu);
+//        } else {
+//            Animacion.Animacion.mover_derecha(-220, 0, 2, 2, pnlMenu);
+//        }
     }
 
     /**
